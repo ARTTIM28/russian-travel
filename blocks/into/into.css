@@ -1,0 +1,36 @@
+.into {
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+  max-width: 690px;
+  height: 429px;
+  padding-left: 148px;
+  padding-top: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .into {
+    padding-left: 48px;
+    width: 100%;
+    max-width: 690px;
+    min-height: 208px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .into {
+    padding: 88px 24px;
+    width: 100%;
+    max-width: 720px;
+    min-height: 208px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .into {
+    padding: 64px 16px;
+    width: 100%;
+    max-width: 288px;
+    min-height: 754px;
+  }
+}
