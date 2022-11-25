@@ -5,7 +5,7 @@
 
 @media screen and (max-width: 1024px) {
   .places__container {
-    align-items: flex-start
+    align-items: flex-start;
   }
 }
 
