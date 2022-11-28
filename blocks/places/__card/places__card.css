@@ -11,7 +11,6 @@
       "image paragraph"
       "image paragraph";
   justify-items: stretch;
-  padding-top: 80px;
 }
 
 @media screen and (max-width: 1275px) {
@@ -25,7 +24,6 @@
   .places__card {
     column-gap: 28px;
     grid-template-columns: minmax(auto, 340px) minmax(auto, 352px);
-    padding: 0;
     row-gap: 48px;
   }
 }

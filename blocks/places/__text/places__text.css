@@ -6,27 +6,14 @@
   line-height: 163%;
   margin-top: 0;
 }
-
-@media screen and (max-width: 1275px) {
-  .places__text {
-  margin-bottom: 18px;
-  }
+.places__text:last-of-type {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1020px) {
   .places__text {
     font-size: 16px;
-    margin-bottom:  24px;
   }
 }
 
-@media screen and (max-width: 760px) {
-  .places__text {
-  margin-bottom: 25px;
-  }
-
-  .places__text:last-of-type {
-    margin-bottom: 0;
-  }
-}
 

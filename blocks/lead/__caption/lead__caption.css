@@ -11,23 +11,3 @@
   letter-spacing: 1.5px;
 }
 
-@media screen and (max-width: 1270px) {
-  .lead__caption {
-  padding-left: 28px;
-  padding-top: 8px;
-  }
-}
-
-@media screen and (max-width: 1020px) {
-  .lead__caption {
-    padding-left: 24px;
-    padding-top: 7px;
-  }
-}
-
-@media screen and (max-width: 760px) {
-  .lead__caption {
-  padding-left: 1.7em;
-  padding-top: 8px;
-  }
-}
