@@ -1,18 +1,18 @@
 .places__image {
   grid-area: image;
-  max-width: 460px;
-  height: 460px;
+  max-width: 29em;
+  height: 28.7em;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1275px) {
   .places__image {
     object-fit: cover;
-    width: 440px;
-    height: 440px;
+    max-width: 27.5em;
+    height: 27.3em;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1020px) {
   .places__image {
     object-fit: cover;
     width: 340px;

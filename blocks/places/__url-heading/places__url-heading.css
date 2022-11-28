@@ -1,7 +1,8 @@
 .places__url-heading {
   grid-area: url-heading;
   font-size: 12px;
+  line-height: 12px;
   letter-spacing: 2px;
   color: #AAAAAA;
-  padding-bottom: 7px;
+  padding-bottom: 12px;
 }

@@ -1,17 +1,21 @@
 .places__container {
-  margin: 0;
+  max-width: 984px;
+  margin: 0 auto;
   padding: 0;
 }
 
-@media screen and (max-width: 1024px) {
+
+
+@media screen and (max-width: 1020px) {
   .places__container {
-    align-items: flex-start;
+    padding-top: 48px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 760px) {
   .places__container {
-    width: 100%;
-    max-width: 320px;
+    padding-top: 49px;
   }
+
+
 }

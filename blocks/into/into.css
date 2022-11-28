@@ -1,35 +1,32 @@
 .into {
+  align-self: flex-start;
   display: flex;
   flex-direction:column;
-  width: 100%;
   max-width: 690px;
-  height: 429px;
-  padding-left: 148px;
-  padding-top: 92px;
+  width: 100%;
+  padding-left: 6.2em;
+  padding-top: 5.8em;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1270px) {
   .into {
     padding-left: 48px;
-    width: 100%;
     max-width: 690px;
     min-height: 208px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1020px) {
   .into {
-    padding: 88px 24px;
-    width: 100%;
+    padding: 5.5em 1.46em;
     max-width: 720px;
     min-height: 208px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .into {
     padding: 64px 16px;
-    width: 100%;
     max-width: 288px;
     min-height: 754px;
   }
