@@ -24,15 +24,15 @@
   .places__card {
     column-gap: 28px;
     grid-template-columns: minmax(auto, 340px) minmax(auto, 352px);
-    row-gap: 48px;
+    row-gap: 40px;
   }
 }
 
 @media screen and (max-width: 760px) {
   .places__card {
-    display: grid;
     grid-template-areas: "title"
     "website" "image" "paragraph";
-    gap: 32px;
+    grid-template-columns: 320px;
+    row-gap: 32px;
   }
 }

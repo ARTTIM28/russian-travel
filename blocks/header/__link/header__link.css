@@ -1,8 +1,23 @@
 .header__link {
+  font-family: 'Inter', Arial, Helvetica,sans-serif;
   font-size: 24px;
   line-height: 37px;
   color: white;
   text-decoration: none;
+}
+
+.header__link-selected {
+  text-decoration: underline;
+}
+
+/* чтобы подчеркнуть выбор языка
+.header__link:focus {
+  text-decoration: underline;
+}
+*/
+
+.header__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 760px) {

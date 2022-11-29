@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1270px) {
   .into {
-    padding-left: 0;
+    padding-left: 48px;
     max-width: 690px;
     min-height: 208px;
   }
@@ -18,15 +18,16 @@
 
 @media screen and (max-width: 1020px) {
   .into {
-    padding: 5.5em 0;
+    padding: 5.5em 1.3em;
     max-width: 720px;
     min-height: 208px;
   }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 760px) {
   .into {
-    padding: 4em 0;
+    align-self: center;
+    padding: 4em 1em;
     max-width: 288px;
     min-height: 754px;
   }
