@@ -1,40 +1,13 @@
 .cover {
-  position: relative;
-  background-image: url(../../images/__background.jpg);
-  background-position: center center;
-  background-size:  cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 92px auto;
   width: 100%;
   max-width: 1184px;
   min-height: 740px;
-  z-index: 1;
-}
-
-.cover::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  background-color: #2A2C2F;
-  opacity: 0.3;
-}
-
-.cover:hover::before {
-  opacity: 0.8;
 }
 
 @media screen and (max-width: 1275px) {
   .cover {
-    background-size: cover;
-    max-width: 1184px;
-    width: 100%;
+    max-width: 1024px;
     min-height: 640px;
   }
 }
@@ -52,6 +25,5 @@
     max-width: 320px;
     min-height: 200px;
     margin-top: 66px;
-    justify-content: flex-start;
   }
 }
